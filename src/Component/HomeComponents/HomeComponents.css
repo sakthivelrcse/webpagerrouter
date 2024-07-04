@@ -1,0 +1,26 @@
+
+.container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .profile {
+    display: block;
+    width: 1582px;
+    padding: 30px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 42px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
